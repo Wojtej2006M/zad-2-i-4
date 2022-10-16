@@ -1,0 +1,101 @@
+//zad 1
+/*int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int suma = a+b;
+    if (suma%2==0)
+    {
+    Console.WriteLine("tak");
+    }
+    else
+    {
+    Console.WriteLine("nie");
+    }*/
+//zad 2
+/*int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int srednia  = (a + b)/2;
+if (Math.Sqrt(a*b)==srednia)
+{
+    Console.WriteLine("tak");
+}
+else
+{
+    Console.WriteLine("nie");
+}
+*/
+//zad 3
+/*int k = int.Parse(Console.ReadLine());
+int l = int.Parse(Console.ReadLine());
+int m = int.Parse(Console.ReadLine());
+if (k==m)
+{
+    Console.WriteLine("tak "+k+" i "+m);
+}
+else if (l == m)
+{
+    Console.WriteLine("tak "+l+" i "+m);
+}
+else if (k==m)
+{
+    Console.WriteLine("tak "+k+" i "+m);
+}
+else
+{
+    Console.WriteLine("nie");*//*
+}*/
+//zad 4
+/*int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+int d = int.Parse(Console.ReadLine());
+if (a<b&&a<c&&a<d)
+{
+    Console.WriteLine("najmniejsza liczba to: " + a);
+}
+if (b<a&&b<c&&b<d)
+{
+    Console.WriteLine("najmniejsza liczba to: " + b);
+}
+if (c<a&&c<b&&c<d)
+{
+    Console.WriteLine("najmniejsza liczba to: " + c);
+}
+if (d<a&&d<b&&d<c)
+{
+    Console.WriteLine("najmniejsza liczba to: " + d);
+}*/
+//zad 5
+/*int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+if (a + b > c && a + c > b && c + b > a)
+{
+    Console.WriteLine("tak");
+}
+else
+{
+    Console.WriteLine("nie");
+}*/
+//zad 6
+/*int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+if (a + b > c && a + c > b && c + b > a)
+{
+    if (a * a + b * b > c * c)
+    {
+        Console.WriteLine("ostrokątny");
+    }
+    if (a * a + b * b == c * c)
+    {
+        Console.WriteLine("prostokątny");
+    }
+    if (a * a + b * b < c * c)
+    {
+        Console.WriteLine("rozwartokątny");
+    }
+}
+else
+{
+    Console.WriteLine("nie");
+}*/

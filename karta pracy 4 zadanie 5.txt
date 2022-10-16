@@ -1,0 +1,35 @@
+using System;
+namespace zad5
+{
+
+    class zad5
+    {
+        public static int fib(int n)
+        {
+            if ((n == 1) || (n == 2))
+            {
+                return 1;
+            }
+            else
+            {
+                return fib(n - 1) + fib(n - 2);
+            }
+        }
+
+
+        [STAThread]
+        static void Main(string[] args)
+        {
+            String y;
+            int n;
+
+            Console.WriteLine("Podaj wyraz ciagu Fibonacciego ");
+            y = Console.ReadLine();
+            n = int.Parse(y);
+
+            Console.WriteLine("wyraz ciagu Fibonacciego: " + fib(n));
+        }
+
+    }
+
+}
