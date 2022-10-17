@@ -17,6 +17,15 @@ namespace zad6
                 return a = a * potega(a, --b);
 
         }
+        static public void zad7(int n)
+        {
+            if (n>0)
+            {
+                zad7(n / 2);
+                Console.WriteLine(n%2);
+            }
+
+        }
     }
 
 }
